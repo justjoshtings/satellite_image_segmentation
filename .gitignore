@@ -1,3 +1,7 @@
+results/ProjectPictures.pptx
+results/unet_model_v3_epoch6.h5
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
