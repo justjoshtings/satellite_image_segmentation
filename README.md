@@ -84,7 +84,7 @@ DeepGlobe Land Cover Classification Dataset from [Kaggle](https://www.kaggle.com
 ## References
 1. [Ronneberger et al. (2015)'s U-Net](https://arxiv.org/abs/1505.04597)
 2. [Neven, Robby & Goedemé, Toon. (2021). A Multi-Branch U-Net for Steel Surface Defect Type and Severity Segmentation. Metals. 11. 870. 10.3390/met11060870.](https://www.researchgate.net/figure/U-Net-model-18-with-ResNet-19-backbone_fig4_351911884)
-3. DeepGlobe Land Cover Classification Dataset from [Kaggle](https://www.kaggle.com/balraj98/deepglobe-land-cover-classification-dataset)
+3. [DeepGlobe Land Cover Classification Dataset from Kaggle](https://www.kaggle.com/balraj98/deepglobe-land-cover-classification-dataset)
 ```
 @InProceedings{DeepGlobe18,
  author = {Demir, Ilke and Koperski, Krzysztof and Lindenbaum, David and Pang, Guan and Huang, Jing and Basu, Saikat and Hughes, Forest and Tuia, Devis and Raskar, Ramesh},
