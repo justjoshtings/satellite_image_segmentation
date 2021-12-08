@@ -22,7 +22,7 @@ Predicting land cover types on remote sensing data using Convolutional Neural Ne
 git clone git@github.com:justjoshtings/satellite_image_segmentation.git
 ```
 2. The Python notebook is optimized and set up for proper execution in [Google Colab](https://colab.research.google.com/). I'd recommend to upload **Land_Cover_Segmentation.ipynb** and execute from there. Please see **Folder Structure** section for how to set up the initial folder structure. The Python notebook will move and create new directories to accomodate for certain preprocessing procedures but the initial setup is shown below.
-3. Download the data from [Kaggle^3](https://www.kaggle.com/balraj98/deepglobe-land-cover-classification-dataset) and upload all data into Google Drive workspace based on the prior mentioned folder structure.
+3. Download the data from [Kaggle](https://www.kaggle.com/balraj98/deepglobe-land-cover-classification-dataset)<sup>3</sup> and upload all data into Google Drive workspace based on the prior mentioned folder structure.
 4. Execute the Python notebook. Note that for training, it is recommended to connect to a GPU enabled runtime for faster training speeds.
 
 # <a name="structure"></a>
@@ -56,24 +56,24 @@ satellite_image_segmentation
 # <a name="datasets"></a>
 ## Datasets
 
-DeepGlobe Land Cover Classification Dataset from [Kaggle^3](https://www.kaggle.com/balraj98/deepglobe-land-cover-classification-dataset)
+DeepGlobe Land Cover Classification Dataset from [Kaggle](https://www.kaggle.com/balraj98/deepglobe-land-cover-classification-dataset)<sup>3</sup>
 # <a name="architectures"></a>
 ## Neural Network Architectures
 
-2 types of Fully Convolutional Networks^4 were explored with similar final results on validation and testing data.
+2 types of Fully Convolutional Networks<sup>4</sup> were explored with similar final results on validation and testing data.
 
 # <a name="unet"></a>
 #### U-Net Architecture
 
 ![U-Net](https://github.com/justjoshtings/satellite_image_segmentation/blob/main/results/sample_images/u_net.png?raw=true)
 
-[Ronneberger et al. (2015)'s U-Net](https://arxiv.org/abs/1505.04597)
+[Ronneberger et al. (2015)'s U-Net](https://arxiv.org/abs/1505.04597)<sup>1</sup>
 
 # <a name="resnet_unet"></a>
 #### RestNet Encoder Backbone, U-Net Decoder Architecture
 
 ![ResNet Backbone U-Net](https://github.com/justjoshtings/satellite_image_segmentation/blob/main/results/sample_images/resnet_unet.png?raw=true)
-[Neven, Robby & Goedemé, Toon. (2021). A Multi-Branch U-Net for Steel Surface Defect Type and Severity Segmentation. Metals. 11. 870. 10.3390/met11060870.](https://www.researchgate.net/figure/U-Net-model-18-with-ResNet-19-backbone_fig4_351911884)
+[Neven, Robby & Goedemé, Toon. (2021). A Multi-Branch U-Net for Steel Surface Defect Type and Severity Segmentation. Metals. 11. 870. 10.3390/met11060870.](https://www.researchgate.net/figure/U-Net-model-18-with-ResNet-19-backbone_fig4_351911884)<sup>2</sup>
 
 # <a name="report"></a>
 ## Report
@@ -84,13 +84,16 @@ DeepGlobe Land Cover Classification Dataset from [Kaggle^3](https://www.kaggle.c
 ## References
 1. [Ronneberger et al. (2015)'s U-Net](https://arxiv.org/abs/1505.04597)
 2. [Neven, Robby & Goedemé, Toon. (2021). A Multi-Branch U-Net for Steel Surface Defect Type and Severity Segmentation. Metals. 11. 870. 10.3390/met11060870.](https://www.researchgate.net/figure/U-Net-model-18-with-ResNet-19-backbone_fig4_351911884)
-3. @InProceedings{DeepGlobe18,
+3. DeepGlobe Land Cover Classification Dataset from [Kaggle](https://www.kaggle.com/balraj98/deepglobe-land-cover-classification-dataset)
+```
+@InProceedings{DeepGlobe18,
  author = {Demir, Ilke and Koperski, Krzysztof and Lindenbaum, David and Pang, Guan and Huang, Jing and Basu, Saikat and Hughes, Forest and Tuia, Devis and Raskar, Ramesh},
  title = {DeepGlobe 2018: A Challenge to Parse the Earth Through Satellite Images},
  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
  month = {June},
  year = {2018}
 }
+```
 4. [Long et al. (2015)'s Fully Convolutional Network (FCN)](https://arxiv.org/abs/1411.4038)
 
 # <a name="license"></a>
