@@ -77,7 +77,7 @@ DeepGlobe Land Cover Classification Dataset from [Kaggle](https://www.kaggle.com
 
 # <a name="report"></a>
 ## Report
-* Medium Post
+* [Medium Post](https://medium.com/@joshting/satellite-imagery-segmentation-with-convolutional-neural-networks-f9254de3b907)
 * [Google Slides Presentation](https://docs.google.com/presentation/d/1do4srMWjMOXvlc0xSFbd8XvPiHDAHshhWZRLiDItgmQ/edit?usp=sharing)
 
 # <a name="references"></a>
