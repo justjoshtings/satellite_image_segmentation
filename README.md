@@ -22,7 +22,7 @@ Predicting land cover types on remote sensing data using Convolutional Neural Ne
 git clone git@github.com:justjoshtings/satellite_image_segmentation.git
 ```
 2. The Python notebook is optimized and set up for proper execution in [Google Colab](https://colab.research.google.com/). I'd recommend to upload **Land_Cover_Segmentation.ipynb** and execute from there. Please see **Folder Structure** section for how to set up the initial folder structure. The Python notebook will move and create new directories to accomodate for certain preprocessing procedures but the initial setup is shown below.
-3. Download the data from [Kaggle](https://www.kaggle.com/balraj98/deepglobe-land-cover-classification-dataset)<sup>3</sup> and upload all data into Google Drive workspace based on the prior mentioned folder structure.
+3. Download the data from the [competition](https://competitions.codalab.org/competitions/18468#learn_the_details-overview)<sup>3</sup> and upload all data into Google Drive workspace based on the prior mentioned folder structure.
 4. Execute the Python notebook. Note that for training, it is recommended to connect to a GPU enabled runtime for faster training speeds.
 
 # <a name="structure"></a>
@@ -84,7 +84,7 @@ DeepGlobe Land Cover Classification Dataset from [Kaggle](https://www.kaggle.com
 ## References
 1. [Ronneberger et al. (2015)'s U-Net](https://arxiv.org/abs/1505.04597)
 2. [Neven, Robby & Goedemé, Toon. (2021). A Multi-Branch U-Net for Steel Surface Defect Type and Severity Segmentation. Metals. 11. 870. 10.3390/met11060870.](https://www.researchgate.net/figure/U-Net-model-18-with-ResNet-19-backbone_fig4_351911884)
-3. [DeepGlobe Land Cover Classification Dataset from Kaggle](https://www.kaggle.com/balraj98/deepglobe-land-cover-classification-dataset)
+3. [DeepGlobe Land Cover Classification Dataset from Competiton](https://competitions.codalab.org/competitions/18468#learn_the_details-overview)
 ```
 @InProceedings{DeepGlobe18,
  author = {Demir, Ilke and Koperski, Krzysztof and Lindenbaum, David and Pang, Guan and Huang, Jing and Basu, Saikat and Hughes, Forest and Tuia, Devis and Raskar, Ramesh},

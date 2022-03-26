@@ -1,5 +1,6 @@
 results/ProjectPictures.pptx
 results/unet_model_v3_epoch6.h5
+*.DS_Store
 
 
 # Byte-compiled / optimized / DLL files
