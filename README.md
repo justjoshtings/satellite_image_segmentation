@@ -57,6 +57,10 @@ satellite_image_segmentation
 ## Datasets
 
 DeepGlobe Land Cover Classification Dataset from the [Competition](https://competitions.codalab.org/competitions/18468#learn_the_details-overview)<sup>3</sup>
+
+or [Kaggle](https://www.kaggle.com/datasets/balraj98/deepglobe-land-cover-classification-dataset).
+
+
 # <a name="architectures"></a>
 ## Neural Network Architectures
 
